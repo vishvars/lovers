@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ck.css">
+</head>
+<body>
+    <h1>WELCOM❤️</h1>
+    <div class="ok">
+        <div class="md">
+  <h2>Enter Your Name</h2>
+ <h3>
+     <input type="text" id="name" placeholder="Enter your name"></h3>
+  <button onclick="saveName()">🫂🫂❤️</button>
+
+  <script>
+    function saveName() {
+      const name = document.getElementById('name').value;
+      localStorage.setItem('name',name);
+      window.location.href = `comd.html?name=${name}`;
+
+
+    }
+  </script>
+        </div>
+  </div>
+</body>
+</html>

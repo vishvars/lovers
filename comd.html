@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mk.css">
+</head>
+<body >
+  
+  <h1>ℋ𝒶𝓅𝓅𝓎 𝒱𝒶𝓁ℯ𝓃𝓉𝒾𝓃ℯ’𝓈 𝒟𝒶𝓎</h1>
+  <h2><p id="output"></p></h2>
+  <h2>You are my everything. </h2>
+  <h2>"Happy Valentine's!"</h2>
+<h2>"I'm so lucky to love you."</h2>
+<h2>"Forever yours, today and always."</h2>
+<h2>"Loving you is my favorite thing to do."</h2>
+
+<div class="lk">
+    <button class="co" onclick="goToThirdPage()">😘Touch me</button>
+</div>
+  <script>
+    const name = localStorage.getItem('name');
+    document.getElementById('output').innerText = name;
+
+    function goToThirdPage() {
+      window.location.href = 'cool.html';
+    }
+    </script>
+</body>
+</html>

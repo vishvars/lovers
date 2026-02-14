@@ -1,0 +1,24 @@
+h1
+{
+    align-items: center;
+    text-align: center;
+    font-size: 80px;
+    color: darkturquoise;
+}
+.ck
+{
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    color:yellow;
+}
+body
+{
+    
+    background-image: url(love.jpg);
+    background-size:cover;
+    
+    background-repeat:no-repeat ;
+
+
+}
