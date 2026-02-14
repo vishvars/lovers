@@ -11,16 +11,23 @@
     <h1>WELCOM❤️</h1>
     <div class="ok">
         <div class="md">
-  <h2>Enter Your Name</h2>
+  <h2>Enter Your Name's</h2>
  <h3>
-     <input type="text" id="name" placeholder="Enter your name"></h3>
+     <input type="text" id="name1" placeholder="Enter your name"></h3>
+     <h3><input type="text" id="name2" placeholder=" your's❤️ name"></h3> 
   <button onclick="saveName()">🫂🫂❤️</button>
 
   <script>
     function saveName() {
-      const name = document.getElementById('name').value;
-      localStorage.setItem('name',name);
-      window.location.href = `comd.html?name=${name}`;
+      const name1= document.getElementById('name1').value;
+      const name2 = document.getElementById('name2').value;
+      localStorage.setItem('name1',name1);
+
+      localStorage.setItem('name2',name2);
+      window.location.href = `comd.html?name1=${name1}`;
+      window.location.href = `comd.html?name2=${name2}`;
+
+ 
 
 
     }

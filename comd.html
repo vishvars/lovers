@@ -9,19 +9,24 @@
 <body >
   
   <h1>ℋ𝒶𝓅𝓅𝓎 𝒱𝒶𝓁ℯ𝓃𝓉𝒾𝓃ℯ’𝓈 𝒟𝒶𝓎</h1>
-  <h2><p id="output"></p></h2>
+  <h2><p id="output1"></p></h2>
   <h2>You are my everything. </h2>
   <h2>"Happy Valentine's!"</h2>
 <h2>"I'm so lucky to love you."</h2>
 <h2>"Forever yours, today and always."</h2>
 <h2>"Loving you is my favorite thing to do."</h2>
+<h2>"By your life partner(❁´◡`❁)"</h2><h2><p id="output2"></p></h2>
+
 
 <div class="lk">
     <button class="co" onclick="goToThirdPage()">😘Touch me</button>
 </div>
   <script>
-    const name = localStorage.getItem('name');
-    document.getElementById('output').innerText = name;
+    const name1 = localStorage.getItem('name1');
+        const name2 = localStorage.getItem('name2');
+
+    document.getElementById('output1').innerText = name1;
+    document.getElementById('output2').innerText = name2;
 
     function goToThirdPage() {
       window.location.href = 'cool.html';

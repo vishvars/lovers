@@ -2,7 +2,7 @@ body
 {
     background-image: url(cup.jpg);
     background-size:cover;
-    
+    background-size:auto;
     background-repeat:no-repeat ;
 }
 h1
